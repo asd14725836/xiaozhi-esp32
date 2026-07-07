@@ -1,0 +1,12 @@
+{
+    "target": "esp32",
+    "builds": [
+        {
+            "name": "xiaomiao-palm",
+            "sdkconfig_append": [
+                "CONFIG_LCD_ST7735_128X160=y"
+            ],
+            "partitions": "partitions/v2/4m.csv"
+        }
+    ]
+}
